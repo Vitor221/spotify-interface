@@ -122,7 +122,7 @@
 
     </div>
 
-    <footer class="bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
+    <footer class="bg-zinc-800 border-t border-zinc-700 px-6 py-4 flex items-center justify-between">
       <div class="flex items-center gap-3">
         <PlaylistsImageFooter :imgPlaylistFooter="'https://midias.correiobraziliense.com.br/_midias/jpg/2022/05/12/kendrick_lamar_novo_album-7960773.jpg'"/>
         <div class="flex flex-col">
@@ -150,8 +150,17 @@
         </div>
         
       </div>
-      <div>
-        
+      <div class="flex items-center gap-4">
+        <MicrophoneIcon />
+        <ListIcon />
+        <LapTopIcon class="stroke-green-600"/>
+        <div class="flex items-center gap-2">
+          <VolumeIcon />
+          <div class="h-1 rounded-full w-24 bg-zinc-600">
+            <div class="bg-zinc-200 w-10 h-1 rounded-full"></div>
+          </div>
+        </div>
+        <MaximumIcon />
       </div>
     </footer>
 
@@ -169,6 +178,11 @@ import ShuffleIcon from '@/components/icons/ShuffleIcon.vue'
 import SkipBackIcon from '@/components/icons/SkipBackIcon.vue'
 import SkipForwardIcon from '@/components/icons/SkipForwardIcon.vue'
 import RepeatIcon from '@/components/icons/RepeatIcon.vue'
+import MicrophoneIcon from '@/components/icons/MicrophoneIcon.vue'
+import ListIcon from '@/components/icons/ListIcon.vue'
+import LapTopIcon from '@/components/icons/LapTopIcon.vue'
+import VolumeIcon from '@/components/icons/VolumeIcon.vue'
+import MaximumIcon from '@/components/icons/MaximumIcon.vue'
 
 import Playlists from '@/components/Playlists/Playlists.vue'
 import PlaylistsImage from '@/components/Playlists/PlaylistsImage.vue'
@@ -194,7 +208,12 @@ export default {
     ShuffleIcon,
     SkipBackIcon,
     SkipForwardIcon,
-    RepeatIcon
+    RepeatIcon,
+    MicrophoneIcon,
+    ListIcon,
+    LapTopIcon,
+    VolumeIcon,
+    MaximumIcon
   }
 }
 </script>
