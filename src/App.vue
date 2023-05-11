@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-zinc-900 text-zinc-50">
+  <div class="h-screen bg-gradient-to-t from-zinc-900 from-85% to-green-950  text-zinc-50">
     <Home />
   </div>
 </template>
