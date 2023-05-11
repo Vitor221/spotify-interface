@@ -173,6 +173,13 @@ import SearchIcon from '@/components/icons/SearchIcon.vue'
 import LibraryIcon from '@/components/icons/LibraryIcon.vue'
 import ArrowLeft from '@/components/icons/ArrowLeftIcon.vue'
 import ArrowRight from '@/components/icons/ArrowRightIcon.vue'
+<<<<<<< HEAD
+import Playlists from '@/components/Playlists/Playlists.vue'
+import PlaylistsImage from '@/components/Playlists/PlaylistsImage.vue'
+import PlaylistsImageCard from '@/components/Playlists/PlaylistsImageCard.vue'
+import PlaylistsImageFooter from '@/components/Playlists/PlaylistImageFooter.vue'
+=======
+>>>>>>> master
 import PlayButton from '@/components/icons/PlayButton.vue'
 import ShuffleIcon from '@/components/icons/ShuffleIcon.vue'
 import SkipBackIcon from '@/components/icons/SkipBackIcon.vue'

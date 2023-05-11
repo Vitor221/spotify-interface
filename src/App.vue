@@ -1,17 +1,13 @@
 <template>
   <div class="h-screen bg-gradient-to-t from-zinc-900 from-85% to-green-950  text-zinc-50">
-    <Home />
+    <router-view />
   </div>
 </template>
 
 <script>
-import Home from '@/pages/Home.vue'
 
 export default {
   name: 'App',
-  components: {
-    Home,
-  }
 }
 </script>
 
